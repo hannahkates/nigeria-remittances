@@ -1,0 +1,34 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <script src="data.js"></script>
+  <title>Remittances: In and Out of Nigeria</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="styles.css"/>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <h1>Global Flow of Remittances</h1>
+  <p>
+    Our world is very interconnected, with immigrant and migrant workers sending money to friends and family around the globe.
+  </p>
+  <p>
+    This chart shows total flows (left to right) of remittances from one country to another. It only includes transfers over $3 billion (US Dollars). The data is estimated by the <a href="https://www.worldbank.org/en/topic/labormarkets/brief/migration-and-remittances" target="_blank">World Bank</a> as of October 2019.
+  </p>
+  <!-- Create a div where the graph will take place -->
+  <div id="chart"></div>
+  <p>
+    <a id="github" href="https://github.com/hannahkates/global-remittances" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2000px-Octicons-mark-github.svg.png" width="22px"> Hannah Kates, 2020</a>
+  </p>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="sankey.js"></script>
+  <script src="js.js"></script>
+</body>
+</html>
